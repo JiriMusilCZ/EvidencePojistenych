@@ -120,7 +120,7 @@ public class Pojistenec {
      */
     @Override
     public String toString() {
-        return String.format("%-15s %-25s %-3d %-15s", jmeno, prijmeni, vek, telefonniCislo);
+        return String.format("%-15s %-20s %-8d %-15s", jmeno, prijmeni, vek, telefonniCislo);
     }
 
 }
